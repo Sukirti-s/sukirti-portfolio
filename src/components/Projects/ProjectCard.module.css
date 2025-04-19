@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -12,6 +12,22 @@
   align-items: center;
   font-family: var(--font-poppins);
   justify-content: space-between;
+} */
+
+.card {
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 300px;
+  height: 600px;
+  padding: 15px 20px;
+  background-color: var(--color-primary);
+  box-shadow: 0 10px 10px 0 var(--color-dark);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  scroll-snap-align: start;
+  font-weight: bold;
 }
 
 .image {

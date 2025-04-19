@@ -6,7 +6,7 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className={styles.navbar}>
+        <nav className={styles.navbar} id="/">
             <a className={styles.title} href="/">Portfolio</a>
             
             <div className={styles.menu}>
@@ -32,10 +32,12 @@ export const Navbar = () => {
                         <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="#lkd"> <img className={styles.linkedin} src= {getImageUrl("icons/Linkedin.png")} alt="linkedin"/> </a>
+                        <a href="https://www.linkedin.com/in/sukirti-pmg/"> <img className={styles.linkedin} src= {getImageUrl("icons/Linkedin.png")} alt="linkedin"/> </a>
                     </li>
                 </ul>
+                
             </div>
+
         </nav>
     );
     

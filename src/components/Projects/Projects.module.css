@@ -2,12 +2,87 @@
 
 .container {
   margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.slidercontainer {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  -ms-overflow-style: none;  /* for IE and Edge */
+  scrollbar-width: none;     /* for Firefox */
+  padding: 20px;
+}
+
+.slidercontainer::-webkit-scrollbar {
+  display: none;             /* for Chrome, Safari, Opera */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: var(--font-poppins);
+}
+
+.cardslider {
+  display: flex;
+  gap: 20px;
+}
+
+.sliderwrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Arrows */
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+.nav:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .nav {
+    display: none;
+  }
+  
+}
+
+
+/* .container {
+  margin-top: 76px;
   margin-bottom: 76px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .title {
@@ -18,9 +93,6 @@
 
 .projects {
   margin-top: 37px;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   gap: 15px;
@@ -28,4 +100,4 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
-}
+} */

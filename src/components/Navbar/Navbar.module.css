@@ -1,17 +1,19 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: 2;
+  z-index: 10;
   /* margin: 0 10%; */
   background-color: var(--color-primary);
   padding-left: 10%;
   padding-right: 10%;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 }
 
 .title {
@@ -96,7 +98,8 @@
   }
 
   .linkedin {
-    display: none;
+    width: 25px;
+    height: 25px;
 }
   
 }
