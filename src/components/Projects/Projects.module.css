@@ -43,19 +43,33 @@
 }
 
 /* Arrows */
-.nav {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+.navleft {
+  background-color: var(--color-primary);
+  color: var(--color-text);
   border: none;
   font-size: 2rem;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
   z-index: 1;
-  border-radius: 50%;
+  border-radius: 15%;
   transition: background 0.3s ease;
+  margin-right: 5px;
 }
+.navright {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 15%;
+  transition: background 0.3s ease;
+  margin-left: 5px;
+}
+
 .nav:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--color-dark);
 }
 
 @media screen and (max-width: 1000px) {

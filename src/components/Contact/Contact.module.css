@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -72,6 +72,8 @@
   .container {
     flex-direction: column;
     gap: 20px;
+    overflow: hidden;
+
   }
 
   .text {
@@ -83,8 +85,7 @@
   }
 
   .links {
-    align-items: center;
+    align-items: left;
     font-family: var(--font-poppins);
-
   }
 }

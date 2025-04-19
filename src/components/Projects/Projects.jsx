@@ -12,7 +12,7 @@ export const Projects = () => {
       <h2 className={styles.title}>Projects</h2>
 
       <div className={styles.sliderwrapper}>
-        <button className={styles.nav} id="prevBtn">‹</button>
+        {/* <button className={styles.navleft} id="prevBtn">‹</button> */}
         
         <div className={styles.slidercontainer}>
           <div className={styles.cardslider}>
@@ -22,7 +22,7 @@ export const Projects = () => {
           </div>
         </div>
         
-        <button className={styles.nav} id="nextBtn">›</button>
+        {/* <button className={styles.navright} id="nextBtn">›</button> */}
       </div>
 
     </section>

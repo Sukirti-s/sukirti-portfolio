@@ -68,33 +68,6 @@
   }
 } */
 
-/* .topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: var(--color-primary);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: var(--color-primary);
-  filter: blur(100px);
-  z-index: 0;
-} */
 
 @media screen and (max-width: 1000px) {
   .container {
@@ -105,4 +78,14 @@
   .content {
     align-items: center;
   }
+
+  .description {
+    font-size: 18px;
+    font-family: var(--font-poppins);
+    /* margin-bottom: 50px; */
+    padding-left: 15px;
+    padding-right: 0px;
+    text-align: justify;
+  }
+  
 }

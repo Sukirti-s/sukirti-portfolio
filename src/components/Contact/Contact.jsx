@@ -26,7 +26,7 @@ export const Contact = () => {
             src={getImageUrl("icons/Linkedin.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/sukirti-pmg/">https://www.linkedin.com/in/sukirti-pmg/</a>
+          <a href="https://www.linkedin.com/in/sukirti-pmg/">View Proile</a>
         </li>
       </ul>
     </footer>
