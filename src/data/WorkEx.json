@@ -1,0 +1,34 @@
+[
+    {
+      "role": "Associate Product Manager",
+      "organisation": "Cordelia Cruises",
+      "startDate": "August, 2024",
+      "endDate": "Present",
+      "experiences": ["Worked on Mobile Application", "Worked on B2C Website", "Worked on Internal Admin Pannel"]
+    },
+    {
+      "role": "Associiate - Product Management",
+      "organisation": "GEP",
+      "startDate": "June, 2022",
+      "endDate": "Aug, 2024",
+      "experiences": ["Worked on Invoice and Credit Memo Modules", "Configured rule engine and approval engine"]
+    },
+    {
+      "role": "Management Intern",
+      "organisation": "Relata.io",
+      "startDate": "May, 2021",
+      "endDate": "Sep, 2021",
+      "experiences": [
+        "Conducted market research and Competitor analysis"
+      ]
+    },
+    {
+        "role": "Technical Intern",
+        "organisation": "Software Technology Parks of India",
+        "startDate": "May, 2019",
+        "endDate": "June, 2019",
+        "experiences": [
+          "Developed of College management system"
+        ]
+      }
+  ]

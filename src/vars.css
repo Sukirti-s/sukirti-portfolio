@@ -1,0 +1,18 @@
+:root{
+    /* Colours */
+    --color-text: #000000;
+    --color-primary: #90C67C;
+    --color-secondary: #67AE6E;
+    --color-dark: #328E6E;
+    --color-bg1: #f0f0f0;
+    --color-bg2: #E1EEBC;
+    --color-bg: #FFFAEC;
+
+
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+    --font-poppins: "Poppins";
+    --font-arimo: "Arimo";
+
+}

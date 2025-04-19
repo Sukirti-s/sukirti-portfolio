@@ -1,0 +1,102 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 2;
+  /* margin: 0 10%; */
+  background-color: var(--color-primary);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menuBtn {
+  display: none;
+}
+
+.linkedin {
+    width: 25px;
+    height: 25px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 16px;
+  font-family: var(--font-poppins);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 30px;
+    align-self:flex-end;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    color: var(--color-text);
+    background: linear-gradient(
+      0deg,
+      var(--color-secondary) 0%,
+      var(--color-primary) 100%
+    );
+    padding: 20px 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    list-style: none;
+  }
+
+  .menuOpens {
+    display: flex;
+    z-index: -1;
+  }
+
+  .linkedin {
+    display: none;
+}
+  
+}
