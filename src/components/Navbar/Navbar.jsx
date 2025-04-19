@@ -6,8 +6,8 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className={styles.navbar} id="/">
-            <a className={styles.title} href="/">Portfolio</a>
+        <nav className={styles.navbar} id="portfoli">
+            <a className={styles.title} href="#portfoli">Portfolio</a>
             
             <div className={styles.menu}>
 
