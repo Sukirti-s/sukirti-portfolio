@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  /* margin-top: 45px; */
+  margin-top: 45px;
   margin-left: 10%;
   margin-right: 10%;
   /* display: grid; */
