@@ -4,7 +4,7 @@
       "imageSrc": "icons/Group.png",
       "description": "Redesigned the user journey and flow of the Group Booking module. Converted the offline process of adding add-ons and bookings venues to an online process by implementing the same in the Quotation generation flow.",
       "result": "Reduced the steps required to generate quotations by approx 38% resulting in faster quotation generation with Add-ons and venues.",
-      "challenges": "Digitizing the excel based process of venue booking and communicating the benefits to the stakeholders."
+      "challenges": "Challenges - Digitizing the excel based process of venue booking and communicating the benefits to the stakeholders."
 
     },
     {
@@ -12,7 +12,7 @@
       "imageSrc": "icons/MobilePhone.png",
       "description": "Built the new mobile application with CMS integration for seamless content management and dynamic updates. Redesigned the UI/UX to enhance user engagement and interactivity. Added new features to the booking management.",
       "result": "Improved in app manage booking options that helps in reducing the manual process. Improved navigation for the users. On cruise activities data provided to users on the App.",
-      "challenges": "User journey issue with the Update guest details flow."
+      "challenges": "Challenges - User journey issue with the Update guest details flow."
 
     },
     {
@@ -20,13 +20,13 @@
       "imageSrc": "icons/Invoice2.png",
       "description": "Designed solution for Multi-po invoicing with invoice reconciliation. This feature would allow clients to create a single invoice from multiple purchase orders while including the invoice reconciliation process for the same.",
       "result": "Upscaled from 1 clients initially to 3 as the features was customizable based on requirements. Faster P2P process as single invoices can be created from multiple purchase orders.",
-      "challenges": "Invoice reconciliation process to include matching with multiple PO instead of one."
+      "challenges": "Challenges - Invoice reconciliation process to include matching with multiple PO instead of one."
     },
     {
         "title": "Web App Development",
         "imageSrc": "icons/WebApp.png",
         "description": "Developed and delivered a mobile responsive web application to digitalize the end-to-end process of the NGO's paper-based system. This project helped the NGO with their Admission process, keeping student records as well as maintaining the student’s daily attendance. Tech stack - Django web Framework, MySQL, HTML, AJAX, CSS, JavaScript,and Bootstrap.",
         "result": "Increased the work efficiency of the NGO staff by 60%.",
-        "challenges": "Implementing localization on the website."
+        "challenges": "Challenges - Implementing localization on the website."
       }
   ]
