@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className={styles.text}>
         <h2>Connect with Me</h2><br />
         <p>
-            <u>Available For -</u> <br /><br /> Full time opportunities in Product Management
+            <u>Available For -</u> <br /> Full time opportunities in Product Management
         </p>
       </div>
       <ul className={styles.links}>
