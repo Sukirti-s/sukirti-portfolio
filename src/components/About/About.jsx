@@ -11,7 +11,7 @@ export const About = () => {
         <h1 className={styles.title}>About Me</h1>
         <div>
             <p className={styles.description}>
-            A product manager with 2.5+ years of experience in software ERP solutions and implementation of Agile Framework and Software Development Life Cycle (SDLC) to ensure efficient delivery of solutions to resolve business problems. Collaborated with high-performing cross-functional teams to design, develop, and enhance product features across diverse domains, including Travel and Supply Chain ERP systems.
+            A product manager with 3+ years of experience in software ERP solutions and implementation of Agile Framework and Software Development Life Cycle (SDLC) to ensure efficient delivery of solutions to resolve business problems. Collaborated with high-performing cross-functional teams to design, develop, and enhance product features across diverse domains, including Travel and Supply Chain ERP systems.
             </p>
         </div>
       </div>
