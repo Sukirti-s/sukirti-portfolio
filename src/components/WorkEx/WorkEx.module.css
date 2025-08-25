@@ -38,6 +38,7 @@
 .historyItem {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   gap: 17px;
   background: var(--color-primary);
@@ -82,6 +83,87 @@
     font-family: var(--font-poppins);
 }
 
+.viewDetailsBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-poppins);
+}
+
+.buttonCenter{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;   
+}
+
+.modalContainer {
+  background: var(--color-bg);
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  border-color: var(--color-text);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalItemDetails {
+  font-family: var(--font-poppins);
+}
+
+.modalItemDetails h3 {
+  font-size: 25px;
+  font-weight: 550;
+  font-family: var(--font-poppins);
+}
+
+.modalItemDetails h4 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+  }
+
+.modalItemDetails p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: var(--font-poppins);
+}
+
+.modalItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 16px;
+  list-style-type: disc;
+  margin-left: 20px;
+  font-family: var(--font-poppins);
+
+}
+
+.modalhistoryli {
+    font-family: var(--font-poppins);
+}
+
+
+/* Responsive */
+
 @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
@@ -102,7 +184,7 @@
 
   .historyItem {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 17px;
     background: var(--color-primary);
