@@ -6,7 +6,7 @@
   border-radius: 10px;
   background-color: var(--color-primary);
   box-shadow: 0 10px 10px 0 var(--color-dark);
-  padding: 18px 24px;
+  padding: 18px 24px; 
   max-width: 345px;
   height: 610px;
   align-items: center;
@@ -21,7 +21,7 @@
   height: 600px;
   padding: 15px 20px;
   background-color: var(--color-primary);
-  box-shadow: 0 10px 10px 0 var(--color-dark);
+  box-shadow: 2px 2px 2px 0 var(--color-dark);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@
     height: 600px;
     padding: 15px 20px;
     background-color: var(--color-primary);
-    box-shadow: 0 10px 10px 0 var(--color-dark);
+    box-shadow: 2px 2px 2px 0 var(--color-dark);
     border-radius: 10px;
     display: flex;
     align-items: center;
