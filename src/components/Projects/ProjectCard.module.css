@@ -20,9 +20,12 @@
   max-width: 300px;
   height: 600px;
   padding: 15px 20px;
-  background-color: var(--color-primary);
-  box-shadow: 2px 2px 2px 0 var(--color-dark);
+  background-color: var(--color-bg);
+  /* box-shadow: 0px 2px 0px 0 var(--color-dark); */
   border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--color-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,7 +69,7 @@
   font-size: 14px;
   font-weight: 400;
   border-radius: 15px;
-  background: var(--color-dark);
+  background: var(--color-primary);
   padding: 2px 22px;
   text-align: justify;
   font-family: var(--font-poppins);
@@ -78,11 +81,14 @@
     flex: 0 0 auto;
     flex-direction: column;
     max-width: 280px;
-    height: 600px;
+    height: auto;
     padding: 15px 20px;
-    background-color: var(--color-primary);
-    box-shadow: 2px 2px 2px 0 var(--color-dark);
+    background-color: var(--color-bg);
+    /* box-shadow: 0px 2px 0px 0 var(--color-dark); */
     border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: space-between;

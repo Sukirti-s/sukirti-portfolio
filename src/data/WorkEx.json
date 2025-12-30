@@ -4,14 +4,22 @@
       "organisation": "Cordelia Cruises",
       "startDate": "August, 2024",
       "endDate": "July, 2025",
-      "experiences": ["Worked on Mobile Application", "Worked on B2C Website", "Worked on Internal Admin Pannel"]
+      "experiences": ["As an Associate Product Manager at Crodelia Cruises, I drove key initiatives across both B2B and B2C products, collaborating closely with engineering, design, marketing, and sales teams to deliver end-to-end product solutions.", 
+                      "I owned requirement gathering and market analysis, shaped product features, and prioritized the backlog to align business goals with user needs.",
+                      "I translated complex business requirements into clear, actionable user stories and worked hands-on with development teams to ensure high-quality execution and on-time launches.",
+                      "I played a key role in the development of the Group Booking module and a new Admin Portal, enabling more scalable operations and improved internal workflows.",
+                      "I also contributed to building the new mobile application with improved user experience and CMS integration for dynamic content updates."
+                    ]
     },
     {
       "role": "Associate - Product Management",
       "organisation": "GEP",
       "startDate": "June, 2022",
       "endDate": "Aug, 2024",
-      "experiences": ["Worked on Invoice and Credit Memo Modules", "Configured rule engine and approval engine"]
+      "experiences": ["As a Product Associate, I worked with the product management team in delivering features that addressed client business challenges, gaining hands-on experience in managing the product lifecycle—from requirement discovery and definition to testing, validation, and release.",
+                      "I worked directly with global clients, assessing requirement complexity, contributing to effort estimates, and supporting the successful delivery of features for the the Invoice and Credit Memo modules.",
+                      "From a technical and quality perspective, I oversaw platform integrations leveraging JSON and cXML and ensured product quality by conducting UAT, regression, and API testing to maintain platform stability."
+                    ]
     },
     {
       "role": "Management Intern - Sales Insight and Research",
@@ -19,7 +27,8 @@
       "startDate": "May, 2021",
       "endDate": "Sep, 2021",
       "experiences": [
-        "Conducted market research and Competitor analysis"
+        "Performed market research and competitor analysis for significant projects in the real estate sector to generate leads.", 
+        "Conducted over 15 cold calls to prospective clients everyday, with a closing rate of 10%. Delivered product demonstrations and created proposals, purchase orders, and various business documents."
       ]
     },
     {
@@ -28,7 +37,7 @@
         "startDate": "May, 2019",
         "endDate": "June, 2019",
         "experiences": [
-          "Developed a College management system"
+          "As a technical intern, I developed a College Management System using ASP.NET and C#, with SQL Server as the backend"
         ]
       }
   ]

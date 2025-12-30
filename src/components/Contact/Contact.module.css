@@ -3,7 +3,11 @@
 .container {
   color: var(--color-text);
   margin-top: 70px;
-  background-color: var(--color-dark);
+  background-color: var(--color-bg);
+  border-radius: 0%;
+  border-style: solid;
+  border-width: 10px 0px 0px 0px ;
+  border-color: var(--color-primary);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
